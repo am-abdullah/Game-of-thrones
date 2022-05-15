@@ -1,0 +1,86 @@
+.logoimg {
+  margin-top: 20px;
+}
+
+.boxBackground {
+  background-image: url("../../public/spider-man.jpg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  z-index: 2;
+}
+
+.h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.mainDiv {
+  font-family: Game of Thrones;
+  color: #f0f8ff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  background-image: url("../../public/kings-landing-4ab2dd5bd43a02acc118ce8852197560.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.secondDiv {
+  font-family: Game of Thrones;
+  color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(0deg, #131313 0, hsla(0, 0%, 100%, 0));
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: flex-end;
+  text-align: center;
+  width: 100%;
+}
+
+.titleDiv {
+  font-family: Game of Thrones;
+  color: #f0f8ff;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../../public/game-of-thrones-logo-_1-331e55859d0037dfb54c989878628ddd.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  z-index: 2;
+}
+
+.heading {
+  font-family: Game of Thrones;
+  color: #f0f8ff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  opacity: 0.3;
+}
