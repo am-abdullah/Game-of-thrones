@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Houses from "../../components/houses";
 import style from "./home.module.css";
 
-export function HomePage() {
+const HomePage = () => {
   const [houses, setHouses] = useState([]);
 
   const handleGetAllHouses = () => {
@@ -29,4 +29,6 @@ export function HomePage() {
       <Houses houses={houses} />
     </>
   );
-}
+};
+
+export default HomePage;
