@@ -23,6 +23,7 @@ const AllHouses = () => {
       <h1 style={{ width: "fit-content", margin: "auto" }} className={style.h1}>
         All Houses
       </h1>
+{console.log("test}
       <CharactersName type="houses" allCharacters={allHouses} />
     </Box>
   );
